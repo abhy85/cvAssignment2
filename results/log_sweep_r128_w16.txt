@@ -1,0 +1,52 @@
+﻿sweep_r128_w16: 31,329 parameters, train 9500, val 1053
+ep   1 loss 1.0268 val mIoU 0.6652 BF1 0.1728 Q 0.5175 (96s) *
+ep   2 loss 0.7839 val mIoU 0.7235 BF1 0.2736 Q 0.5885 (17s) *
+ep   3 loss 0.6998 val mIoU 0.7623 BF1 0.3576 Q 0.6409 (16s) *
+ep   4 loss 0.6507 val mIoU 0.7800 BF1 0.4054 Q 0.6676 (16s) *
+ep   5 loss 0.6172 val mIoU 0.7819 BF1 0.4118 Q 0.6708 (20s) *
+ep   6 loss 0.5970 val mIoU 0.7984 BF1 0.4421 Q 0.6915 (32s) *
+ep   7 loss 0.5781 val mIoU 0.7884 BF1 0.4283 Q 0.6803 (20s)
+ep   8 loss 0.5612 val mIoU 0.8043 BF1 0.4598 Q 0.7010 (19s) *
+ep   9 loss 0.5534 val mIoU 0.7802 BF1 0.4513 Q 0.6816 (17s)
+ep  10 loss 0.5461 val mIoU 0.8051 BF1 0.4758 Q 0.7063 (18s) *
+ep  11 loss 0.5392 val mIoU 0.7983 BF1 0.4564 Q 0.6957 (19s)
+ep  12 loss 0.5315 val mIoU 0.8127 BF1 0.4938 Q 0.7170 (20s) *
+ep  13 loss 0.5200 val mIoU 0.8130 BF1 0.4933 Q 0.7171 (16s) *
+ep  14 loss 0.5179 val mIoU 0.8061 BF1 0.4978 Q 0.7136 (16s)
+ep  15 loss 0.5171 val mIoU 0.8035 BF1 0.4919 Q 0.7100 (16s)
+ep  16 loss 0.5018 val mIoU 0.8197 BF1 0.5069 Q 0.7259 (16s) *
+ep  17 loss 0.5018 val mIoU 0.8259 BF1 0.5120 Q 0.7318 (16s) *
+ep  18 loss 0.4953 val mIoU 0.8193 BF1 0.5133 Q 0.7275 (16s)
+ep  19 loss 0.4906 val mIoU 0.8280 BF1 0.5285 Q 0.7381 (13s) *
+ep  20 loss 0.4853 val mIoU 0.8247 BF1 0.5254 Q 0.7349 (12s)
+ep  21 loss 0.4812 val mIoU 0.8318 BF1 0.5310 Q 0.7416 (12s) *
+ep  22 loss 0.4776 val mIoU 0.8222 BF1 0.5307 Q 0.7348 (12s)
+ep  23 loss 0.4707 val mIoU 0.8196 BF1 0.5374 Q 0.7349 (12s)
+ep  24 loss 0.4660 val mIoU 0.8294 BF1 0.5383 Q 0.7420 (12s) *
+ep  25 loss 0.4686 val mIoU 0.8138 BF1 0.5265 Q 0.7276 (12s)
+ep  26 loss 0.4635 val mIoU 0.8181 BF1 0.5263 Q 0.7305 (14s)
+ep  27 loss 0.4526 val mIoU 0.8261 BF1 0.5343 Q 0.7386 (15s)
+ep  28 loss 0.4559 val mIoU 0.8155 BF1 0.5300 Q 0.7299 (13s)
+ep  29 loss 0.4500 val mIoU 0.8161 BF1 0.5301 Q 0.7303 (14s)
+ep  30 loss 0.4575 val mIoU 0.8258 BF1 0.5356 Q 0.7387 (12s)
+ep  31 loss 0.4479 val mIoU 0.8264 BF1 0.5431 Q 0.7414 (13s)
+ep  32 loss 0.4489 val mIoU 0.8200 BF1 0.5386 Q 0.7355 (13s)
+ep  33 loss 0.4449 val mIoU 0.8239 BF1 0.5417 Q 0.7392 (12s)
+ep  34 loss 0.4402 val mIoU 0.8311 BF1 0.5546 Q 0.7482 (12s) *
+ep  35 loss 0.4415 val mIoU 0.8289 BF1 0.5500 Q 0.7452 (12s)
+ep  36 loss 0.4335 val mIoU 0.8358 BF1 0.5568 Q 0.7521 (12s) *
+ep  37 loss 0.4367 val mIoU 0.8251 BF1 0.5478 Q 0.7419 (12s)
+ep  38 loss 0.4366 val mIoU 0.8391 BF1 0.5637 Q 0.7565 (12s) *
+ep  39 loss 0.4311 val mIoU 0.8379 BF1 0.5622 Q 0.7552 (12s)
+ep  40 loss 0.4292 val mIoU 0.8397 BF1 0.5643 Q 0.7571 (12s) *
+ep  41 loss 0.4268 val mIoU 0.8321 BF1 0.5572 Q 0.7497 (12s)
+ep  42 loss 0.4284 val mIoU 0.8354 BF1 0.5606 Q 0.7530 (12s)
+ep  43 loss 0.4286 val mIoU 0.8344 BF1 0.5608 Q 0.7523 (12s)
+ep  44 loss 0.4297 val mIoU 0.8390 BF1 0.5650 Q 0.7568 (12s)
+ep  45 loss 0.4270 val mIoU 0.8339 BF1 0.5602 Q 0.7518 (12s)
+ep  46 loss 0.4281 val mIoU 0.8359 BF1 0.5617 Q 0.7537 (12s)
+ep  47 loss 0.4240 val mIoU 0.8345 BF1 0.5617 Q 0.7527 (12s)
+ep  48 loss 0.4259 val mIoU 0.8343 BF1 0.5607 Q 0.7522 (12s)
+ep  49 loss 0.4278 val mIoU 0.8318 BF1 0.5579 Q 0.7496 (12s)
+ep  50 loss 0.4237 val mIoU 0.8336 BF1 0.5602 Q 0.7516 (12s)
+best val Q 0.7571

@@ -1,0 +1,8 @@
+{
+ "T_CPU_ms": 4.788055389519824,
+ "S_disk_bytes": 336642,
+ "n": 5019,
+ "cpu": "AMD Ryzen 5 5600H with Radeon Graphics",
+ "torch_threads": 1,
+ "torch": "2.14.1+cu126"
+}

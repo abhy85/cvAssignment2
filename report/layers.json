@@ -1,0 +1,108 @@
+{
+ "rows": [
+  [
+   "input",
+   "BGR photo resized to 128 x 128 (cv2.INTER_AREA)",
+   "3 x 128 x 128",
+   0
+  ],
+  [
+   "stem",
+   "3x3 conv, stride 2, BN, ReLU",
+   "48 x 64 x 64",
+   1392
+  ],
+  [
+   "enc1.0",
+   "DS block (stride 2)",
+   "64 x 32 x 32",
+   3728
+  ],
+  [
+   "enc1.1",
+   "DS block (stride 1, residual)",
+   "64 x 32 x 32",
+   4928
+  ],
+  [
+   "enc2.0",
+   "DS block (stride 2)",
+   "128 x 16 x 16",
+   9152
+  ],
+  [
+   "enc2.1",
+   "DS block (stride 1, residual)",
+   "128 x 16 x 16",
+   18048
+  ],
+  [
+   "enc2.2",
+   "DS block (stride 1, residual)",
+   "128 x 16 x 16",
+   18048
+  ],
+  [
+   "enc3.0",
+   "DS block (stride 2)",
+   "192 x 8 x 8",
+   26368
+  ],
+  [
+   "enc3.1",
+   "DS block (stride 1, residual)",
+   "192 x 8 x 8",
+   39360
+  ],
+  [
+   "enc3.2",
+   "DS block (stride 1, residual)",
+   "192 x 8 x 8",
+   39360
+  ],
+  [
+   "enc3.3",
+   "DS block (stride 1, residual)",
+   "192 x 8 x 8",
+   39360
+  ],
+  [
+   "context",
+   "global avg pool, 1x1 conv, add to every position",
+   "192 x 8 x 8",
+   37056
+  ],
+  [
+   "dec2",
+   "bilinear x2, concat enc2 (192+128 ch), DS block",
+   "128 x 16 x 16",
+   44736
+  ],
+  [
+   "dec1",
+   "bilinear x2, concat enc1 (128+64 ch), DS block",
+   "64 x 32 x 32",
+   14528
+  ],
+  [
+   "dec0",
+   "bilinear x2, concat stem (64+48 ch), DS block",
+   "48 x 64 x 64",
+   6704
+  ],
+  [
+   "head",
+   "1x1 conv to one object logit",
+   "1 x 64 x 64",
+   49
+  ],
+  [
+   "output",
+   "bilinear x4 (cv2.resize), threshold logit > 0",
+   "1 x 256 x 256",
+   0
+  ]
+ ],
+ "total_with_bn": 302817,
+ "total_fused": 299489
+}

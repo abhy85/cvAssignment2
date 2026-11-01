@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment (recreate with the setup steps in README.md)
+.venv/
+venv/
+env/
+.env
+data/
+# ---------------------------------------------------------------- Data
+# DUTS (download from saliencydetection.net) and the 256x256 .npy cache built
+# by src/prepare_data.py -- several GB, regenerable
+data/
+
+# ---------------------------------------------------------------- Models
+# Training checkpoints (float32 + BatchNorm, ~1 MB each), regenerable with src/train.py
+checkpoints/
+# Any other weight files, EXCEPT the deployed parameter file, which is a deliverable
+*.pt
+*.pth
+*.ckpt
+!weights/model.pt
+
+# ---------------------------------------------------------------- Generated outputs
+# Masks written by predict.py / src/evaluate.py (regenerate by rerunning them)
+results/predict_captured/
+results/captured_pred/
+# Kept on purpose: results/*.json and results/*.txt (metrics, timing, training
+# history and logs that back up the numbers in the report), report/report.pdf,
+# report/figures/, captured/ (original, images_256, masks_256)
+
+# ---------------------------------------------------------------- Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
